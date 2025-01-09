@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-image: url("images/galaxy.avif");
+    background-blend-mode: color;
+ display: flex;
+ flex-direction: column;
+ padding: 2rem;
+ gap: 3rem;
+}
+header {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(4,110,236,1) 100%);
+}
+nav {
+    color: white;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(4,110,236,1) 100%);
+}
+ nav ul li a {
+ color: white;
+ }
+ main {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+ .section {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 10%, rgba(4,110,236,1) 100%);
+ }
+ .section1 {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,76,217,1) 10%, rgba(171,4,236,1) 100%);
+ }
